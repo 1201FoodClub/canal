@@ -30,6 +30,7 @@ enum PacketType {
     DUMP = 10;
     HEARTBEAT = 11;
     CLIENTROLLBACK = 12;
+    RESYNC = 13;
 }
 
 message Packet {
