@@ -563,6 +563,10 @@ public class CanalServerWithEmbedded extends AbstractCanalLifeCycle implements C
         return true;
     }
 
+    @Override
+    public void reSync(ClientIdentity clientIdentity) throws CanalServerException{
+        //TODO implement it
+    }
     // ========= setter ==========
 
     public void setCanalInstanceGenerator(CanalInstanceGenerator canalInstanceGenerator) {

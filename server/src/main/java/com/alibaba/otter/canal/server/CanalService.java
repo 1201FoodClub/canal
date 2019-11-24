@@ -26,4 +26,9 @@ public interface CanalService {
     void rollback(ClientIdentity clientIdentity) throws CanalServerException;
 
     void rollback(ClientIdentity clientIdentity, Long batchId) throws CanalServerException;
+
+    /**
+     * resync from the latest position
+     */
+    void reSync(ClientIdentity clientIdentity) throws CanalServerException;
 }
