@@ -152,3 +152,9 @@ message ClientRollback{
     string client_id = 2;
     int64 batch_id = 3;
 }
+
+// resync from the latest position
+message ReSync{
+    string destination = 1;
+    string client_id = 2;
+}
